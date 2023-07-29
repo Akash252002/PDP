@@ -76,5 +76,5 @@ def report():
 def data():
     return redirect('https://www.sciencedirect.com/science/article/pii/S2352340920313202')
 
-if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+if __name__ == "__main__":
+    app.run(host='127.0.0.1', port=8000, debug=True)
